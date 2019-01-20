@@ -1,3 +1,5 @@
+# Maintainer therojam <archlinux@therojam.xyz>
+
 pkgname=yubikey-full-disk-encryption-git
 pkgver=r82.a2843e1
 pkgrel=1
@@ -18,5 +20,5 @@ pkgver() {
 
 package() {
 	  cd "${pkgname}"
-	    make DESTDIR="${pkgdir}" install
+	    make DESTDIR="${pkgdir}" install>
     }
